@@ -1,0 +1,44 @@
+{
+  "name": "hwca-mcp-server",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server for Home and Work Computer Automation",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "hwca-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "dev": "tsc && node build/index.js",
+    "start": "node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "automation",
+    "home-automation",
+    "work-automation",
+    "computer-control"
+  ],
+  "author": "AndyLiner13 <contact@andyliner.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyLiner13/hwca-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndyLiner13/hwca-mcp/issues"
+  },
+  "homepage": "https://github.com/AndyLiner13/hwca-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "build"
+  ]
+}

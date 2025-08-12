@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hwca-automation": {
+      "command": "node",
+      "args": ["C:\\absolute\\path\\to\\hwca-mcp\\build\\index.js"]
+    }
+  }
+}

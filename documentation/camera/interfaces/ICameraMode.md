@@ -1,1 +1,9 @@
-https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_icameramode
+# ICameraMode Interface
+
+The base interface for manipulating camera mode properties.
+
+## Signature
+
+```typescript
+export interface ICameraMode
+```

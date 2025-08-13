@@ -1,1 +1,12 @@
-https://developers.meta.com/horizon-worlds/reference/2.0.0/core_launchprojectileoptions
+# LaunchProjectileOptions type
+
+Options for launching a projectile.
+
+## Signature
+
+```typescript
+export declare type LaunchProjectileOptions = {
+    speed: number;
+    duration?: number;
+};
+```

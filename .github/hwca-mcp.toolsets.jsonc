@@ -1,0 +1,72 @@
+{
+	"horizonWorldsDocumentation": {
+		"tools": [
+			"read_file",
+			"file_search",
+			"grep_search",
+			"semantic_search",
+			"list_dir"
+		],
+		"description": "Tools for accessing and searching Horizon Worlds TypeScript documentation",
+		"icon": "book"
+	},
+	"codeGeneration": {
+		"tools": [
+			"create_file",
+			"replace_string_in_file",
+			"edit_notebook_file",
+			"get_errors"
+		],
+		"description": "Tools for creating and editing TypeScript code files for Horizon Worlds",
+		"icon": "code"
+	},
+	"projectManagement": {
+		"tools": [
+			"create_directory",
+			"run_in_terminal",
+			"get_terminal_output",
+			"create_and_run_task",
+			"get_task_output"
+		],
+		"description": "Tools for managing Horizon Worlds TypeScript projects and build processes",
+		"icon": "project"
+	},
+	"codeAnalysis": {
+		"tools": [
+			"list_code_usages",
+			"test_search",
+			"get_changed_files",
+			"get_vscode_api"
+		],
+		"description": "Tools for analyzing and understanding TypeScript code structure",
+		"icon": "search"
+	},
+	"systemIntegration": {
+		"tools": [
+			"mcp_hwca-automati_read_file",
+			"mcp_hwca-automati_write_file",
+			"mcp_hwca-automati_list_directory",
+			"mcp_hwca-automati_execute_command",
+			"mcp_hwca-automati_get_system_info"
+		],
+		"description": "System-level tools for advanced file operations and system integration",
+		"icon": "gear"
+	},
+	"webResources": {
+		"tools": [
+			"fetch_webpage",
+			"open_simple_browser"
+		],
+		"description": "Tools for accessing official Meta Horizon Worlds documentation and resources",
+		"icon": "globe"
+	},
+	"extensionSupport": {
+		"tools": [
+			"install_extension",
+			"vscode_searchExtensions_internal",
+			"run_vscode_command"
+		],
+		"description": "Tools for managing VS Code extensions and IDE functionality",
+		"icon": "extensions"
+	}
+}

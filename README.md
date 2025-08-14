@@ -1,6 +1,8 @@
 # HWCA MCP Server
 
-A Model Context Protocol (MCP) server for Home and Work Computer Automation. This server provides tools and resources for automating computer tasks, managing files, executing system commands, and monitoring system resources.
+A Model Context Protocol (MCP) server for the Horizon Worlds editor. This server provides tools and resources for automating context-management tasks, enabling GitHub CoPilot to understand the context of the Horizon Worlds TypeScript APIs.
+
+__*Be sure to add the corresponding Instructions and Tool Sets (provided in the .github folder) & copy their contents to your corresponding .github folder in your project's root directory.__
 
 ## Features
 
@@ -155,3 +157,4 @@ MIT License
 ## Support
 
 For issues and questions, please open an issue on GitHub.
+
